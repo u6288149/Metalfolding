@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "402143990077",
+    "project_id": "metalfolding",
+    "storage_bucket": "metalfolding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402143990077:android:5c620e9db8d9ae1698b554",
+        "android_client_info": {
+          "package_name": "com.example.best"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402143990077-6lfsgtidoeut2923ijp8ufrot5m49beg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLdL58vN5eB5DWD9NnFldhmrcKdle4CoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402143990077-6lfsgtidoeut2923ijp8ufrot5m49beg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "402143990077-e0miu5mj4gfmggn0p3ilmoqshp8oohvd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.best"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402143990077:android:da1ad8f9bb9c87c398b554",
+        "android_client_info": {
+          "package_name": "com.example.metalfolding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402143990077-6lfsgtidoeut2923ijp8ufrot5m49beg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLdL58vN5eB5DWD9NnFldhmrcKdle4CoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402143990077-6lfsgtidoeut2923ijp8ufrot5m49beg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "402143990077-e0miu5mj4gfmggn0p3ilmoqshp8oohvd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.best"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
