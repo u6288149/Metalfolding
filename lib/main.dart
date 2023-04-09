@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'mainpage.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:metalfolding/shop.dart';
+import 'package:provider/provider.dart';
 import 'firebase_options.dart';
+import 'home.dart';
+import 'mainpage.dart';
+import 'models/shop_data.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,12 +20,17 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ShopData()),
+      ],
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: const MainPage(),
       ),
-      home: const MainPage(),
     );
   }
 }

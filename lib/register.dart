@@ -46,9 +46,6 @@ class _RegisterPageState extends State<RegisterPage> {
         await _auth
             .createUserWithEmailAndPassword(email: email, password: password)
             .then((value) => {postDetailsToFirestore(value.user)});
-            // .catchError((e) {
-            //   Fluttertoast.showToast(msg: e!.message);}
-            // );
       } on FirebaseAuthException catch (error) {
         switch (error.code) {
           case "invalid-email":
@@ -78,9 +75,7 @@ class _RegisterPageState extends State<RegisterPage> {
   }
 
   Future<void> postDetailsToFirestore(User? user) async {
-    // calling our firestore
-    // calling our user model
-    // sending these values
+    // calling our user model to pass these information to firebase
 
     FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
 
