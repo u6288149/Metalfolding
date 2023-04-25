@@ -1,5 +1,6 @@
 import 'package:metalfolding/login.dart';
 import 'package:flutter/material.dart';
+import 'package:metalfolding/register.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -75,12 +76,12 @@ class MainPage extends StatelessWidget {
                                 child: MaterialButton(
                                     minWidth: MediaQuery.of(context).size.width,
                                     onPressed: () {
-                                      // Navigator.push(
-                                      //   context,
-                                      //   MaterialPageRoute(
-                                      //       builder: (context) =>
-                                      //           const SignUpScreen()),
-                                      // );
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                const RegisterPage()),
+                                      );
                                     },
                                     child: Text(
                                       "SIGN UP",
